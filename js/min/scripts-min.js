@@ -1,0 +1,1 @@
+!function(t,$,n){"use strict";$(function(){$(".mobile-nav__button").click(function(){$(this).toggleClass("open"),$(this).parent().toggleClass("open")})})}(this,jQuery);

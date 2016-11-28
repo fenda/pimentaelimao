@@ -1,0 +1,30 @@
+/*!
+ * Theme Name: Pimenta e Limão
+ * Theme URI: http://pimentaelimao.com.br
+ * Description: Tema customizado para o blog Pimenta e Limão
+ * Version: 1.0.0
+ * Author: Fenda (@fenda)
+ * Author URI: http://hypeberries.com
+ * Tags: Noir, BEM, Clean, Responsive, Magazine, Blog
+ *
+ * License: MIT
+ * License URI: http://opensource.org/licenses/mit-license.php
+ */
+
+// Modules
+@import "modules/variables";
+@import "modules/mixins";
+@import "modules/text";
+
+// Partials
+@import "partials/reset";
+@import "partials/wordpress";
+@import "partials/utils";
+@import "partials/main";
+@import "partials/header";
+@import "partials/nav";
+@import "partials/comments";
+@import "partials/sidebar";
+@import "partials/footer";
+@import "partials/responsive";
+@import "partials/print";

@@ -1,0 +1,36 @@
+
+.comments {margin-top:40px;
+	ul {list-style:none;}
+}
+.comment-body {border-bottom:1px solid #ddd; margin-bottom:30px; padding-bottom:20px;}
+.comment-author {display:block; overflow:hidden;
+	img {border-radius:40px; width:70px; height:70px; margin-right:20px; float:left;}
+	.fn {font-style:normal; margin:5px 0 0; display:inline-block; font-weight:bold; font-size:1.1em;}
+	p {display:block; margin:0; text-transform:capitalize;
+		a {font-size:.85em; color:#a7a7a7;}
+	}
+}
+.comment-text {padding-left:90px; font-size:.95em;}
+.reply {float:right; font-style:italic; font-size:.75em;
+	a {text-decoration:none; tranform:.5s; padding:5px;
+		&:hover {background:#000; color:#FFF;}
+	}
+}
+
+.comment-respond {margin-top:40px;}
+.comment-notes {margin:0; font-size:.9em;}
+
+.comment-reply-title {font-family:$font-raleway; font-size:18px; text-transform:uppercase; border-bottom:1px solid #000; margin-bottom:10px;}
+.comment-form-comment {float:right; width:100%;
+	textarea {width:100%; height:109px; padding:10px; border-radius:3px; border:1px solid #000; font-family:$font-raleway;}
+}
+.comment-form-author, .comment-form-email {float:left; width:48%; margin:0;
+	label {display:none;}
+	input {padding:10px; border-radius:3px; border:1px solid #000; width:100%; font-family:$font-raleway; height:46px;}
+}
+.comment-form-email {float:right;}
+.comment-form-url {display:none;}
+
+.form-submit {margin:20px 0;float:left;
+	input {background:#000; border:none; color:#FFF; font-family:$font-raleway; text-transform:uppercase; font-weight:600; padding:10px 10px;}
+}

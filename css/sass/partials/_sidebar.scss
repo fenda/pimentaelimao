@@ -1,0 +1,27 @@
+.sidebar {float:right; width:300px;}
+
+.widget {margin-bottom:30px;}
+.widget__title {background:#000; color: #fff; font-size:12px; padding: 1em 1.1em; margin: 0 0 20px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; position: relative; text-align: center; }
+.widget__title:after {position: absolute; left: 50%; margin-left: -5px; bottom: -5px; content: ""; display: block; width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #000; }
+
+.searchform {position: relative }
+.searchform input[type="search"] {background: #fff; border: none; outline: none; padding-left: 12px; padding-right: 50px; height: 38px; width: 100%; border: 1px solid #000; font-size: 13px; transition: 0.2s all ease-in-out; font-family: inherit; font-weight: 400; border-radius:0; -webkit-appearance: none}
+.searchform button { background: #000; color: #fff; position: absolute; right: 0; top: 0; width: 40px; height: 38px; line-height: 38px; text-align: center; display: block; border: 1px solid #000; outline: none; padding: 0; font-size: 12px; }
+.wpex-site-footer .searchform button { background: #222; color: #fff; border-color: transparent; }
+.searchform input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none }
+.searchform input[type="search"]::-webkit-search-decoration {display:none; border-radius:0;}
+
+.most-read {padding-bottom:10px; margin-bottom:10px; border-bottom:1px solid #000;
+	&:last-of-type {border-bottom:none; padding-bottom:0;}
+}
+.post-item__image--widget {width:70px; margin-right:20px;}
+.post-item__title--widget {font-weight:600; text-transform:none; font-size:14px;}
+.post-item__extrainfo--widget {color:#565656; font-size:13px; margin-top:7px;}
+
+.widget_archive {
+	label {display:none;}
+	select {width:100%; font-family:$font-raleway; padding:10px; height:50px; border:1px solid #000;}
+}
+.textwidget {
+	img {margin-bottom:20px;}
+}
