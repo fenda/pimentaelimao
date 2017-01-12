@@ -7,6 +7,7 @@
 	<link href="//www.google-analytics.com" rel="dns-prefetch">
 	<link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.png" rel="shortcut icon">
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?>" href="<?php bloginfo('rss2_url'); ?>" />
+	<link rel="alternate" hreflang="pt" href="http://pimentaelimao.com.br/">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,11 +45,11 @@
 		</div>
 	</div>
 	<header class="header clear" role="banner">
-		<div class="logo">
+		<h1 class="logo">
 			<a href="<?php echo home_url(); ?>">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo" class="logo-img">
 			</a>
-		</div>
+		</h1>
 		<nav class="nav font--raleway" role="navigation">
 			<?php html5blank_nav(); ?>
 		</nav>
